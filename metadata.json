@@ -1,0 +1,5 @@
+{
+  "name": "Avian Real Estate Platform",
+  "description": "A frontend foundation for an enterprise real estate platform, featuring a comprehensive design system, reusable UI components, and a mock data strategy. Built with React, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": []
+}
