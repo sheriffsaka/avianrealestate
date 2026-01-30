@@ -5,8 +5,6 @@ import { SearchIcon } from '../icons/SearchIcon';
 import { BellIcon } from '../icons/BellIcon';
 import { ChevronDownIcon } from '../icons/ChevronDownIcon';
 import { Button } from '../ui/Button';
-import { LogOutIcon } from '../icons/LogOutIcon';
-import { SettingsIcon } from '../icons/SettingsIcon';
 
 type Page = 'home' | 'about' | 'listings' | 'details' | 'contact' | 'client-request' | 'mobilization-fee' | 'confirmation' | 'agent-signup' | 'agent-dashboard' | 'agent-property-submission' | 'admin-login' | 'admin-dashboard';
 

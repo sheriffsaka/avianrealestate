@@ -9,7 +9,7 @@ export const properties: Property[] = [
         bedrooms: 5,
         bathrooms: 6,
         sqft: 4500,
-        status: 'Approved',
+        status: 'For Sale',
         imageUrls: [
             'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1974&auto=format&fit=crop',
             'https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=2070&auto=format&fit=crop',
@@ -30,7 +30,7 @@ export const properties: Property[] = [
         bedrooms: 6,
         bathrooms: 7,
         sqft: 5500,
-        status: 'Approved',
+        status: 'For Sale',
         imageUrls: [
             'https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=2070&auto=format&fit=crop',
             'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2070&auto=format&fit=crop',
@@ -124,7 +124,7 @@ export const properties: Property[] = [
         bedrooms: 2,
         bathrooms: 3,
         sqft: 1800,
-        status: 'Approved',
+        status: 'For Sale',
         imageUrls: [
             'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop'
         ],
@@ -142,7 +142,7 @@ export const properties: Property[] = [
         bedrooms: 6,
         bathrooms: 8,
         sqft: 6000,
-        status: 'Approved',
+        status: 'For Sale',
         imageUrls: [
             'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop'
         ],

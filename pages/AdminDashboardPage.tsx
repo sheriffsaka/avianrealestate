@@ -6,7 +6,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '.
 import { Badge } from '../components/ui/Badge';
 import { Input } from '../components/ui/Input';
 import { Select } from '../components/ui/Select';
-import { properties as mockProperties, users as mockUsers, clientRequests, transactions, payments } from '../services/mockData';
+import { properties as mockProperties, users as mockUsers } from '../services/mockData';
 import type { Property, User, PropertyStatus } from '../types';
 import { BuildingIcon } from '../components/icons/BuildingIcon';
 import { UsersIcon } from '../components/icons/UsersIcon';
@@ -32,7 +32,7 @@ const PropertiesTab: FC<{ properties: Property[], users: User[], onSelectPropert
     
     const getBadgeVariant = (status: PropertyStatus): 'success' | 'default' | 'destructive' | 'secondary' | 'outline' => {
         switch (status) {
-            case 'Approved': return 'success';
+            case 'For Sale': return 'success';
             case 'Pending Review': return 'default';
             case 'Rejected': return 'destructive';
             case 'Sold': return 'secondary';
@@ -59,7 +59,7 @@ const PropertiesTab: FC<{ properties: Property[], users: User[], onSelectPropert
                     <Select value={statusFilter} onChange={(e) => setStatusFilter(e.target.value as PropertyStatus | 'all')}>
                         <option value="all">All Statuses</option>
                         <option value="Pending Review">Pending Review</option>
-                        <option value="Approved">Approved</option>
+                        <option value="For Sale">For Sale</option>
                         <option value="Rejected">Rejected</option>
                         <option value="Sold">Sold</option>
                     </Select>

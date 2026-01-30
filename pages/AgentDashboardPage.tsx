@@ -3,7 +3,7 @@ import React, { useMemo } from 'react';
 import { Button } from '../components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../components/ui/Card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '../components/ui/Table';
-import { Badge, badgeVariants } from '../components/ui/Badge';
+import { Badge } from '../components/ui/Badge';
 import { properties as mockProperties } from '../services/mockData';
 import type { Property, PropertyStatus } from '../types';
 import { BuildingIcon } from '../components/icons/BuildingIcon';
